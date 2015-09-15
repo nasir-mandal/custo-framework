@@ -96,22 +96,22 @@ class Custo {
 			<?php
 			if( $active_tab == 'general' ) {
 				 echo '<h3>General Settings</h3>';
-				 CUSTO_metabox_form( 'general_option_metabox', $this->key, array( 'cmb_styles' => true ) );
+				 cmb2_metabox_form( 'general_option_metabox', $this->key, array( 'cmb_styles' => true ) );
 			} 
 
 			elseif( $active_tab == 'frontpage' ) {
 				 echo '<h3>Frontpage Settings</h3>';
-				 CUSTO_metabox_form( 'frontpage_option_metabox', $this->key, array( 'cmb_styles' => true ) );
+				 cmb2_metabox_form( 'frontpage_option_metabox', $this->key, array( 'cmb_styles' => true ) );
 			} 
 
 			elseif( $active_tab == 'contact' ) {
 				 echo '<h3>Contact Us Settings</h3>';
-				 CUSTO_metabox_form( 'contact_option_metabox', $this->key, array( 'cmb_styles' => true ) );
+				 cmb2_metabox_form( 'contact_option_metabox', $this->key, array( 'cmb_styles' => true ) );
 			} 
 
 			else {
 				echo '<h3>Footer Settings</h3>';
-				CUSTO_metabox_form( 'footer_option_metabox', $this->key, array( 'cmb_styles' => true ) );
+				cmb2_metabox_form( 'footer_option_metabox', $this->key, array( 'cmb_styles' => true ) );
 			} ?>
 		</div>
 		<?php
